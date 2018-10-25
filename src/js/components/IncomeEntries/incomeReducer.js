@@ -30,6 +30,7 @@ export default function IncomeReducer (state = defaultState, action) {
             const { description, amount } = action.payload;
             return {
                 description: '',
+                amount: '',
                 action: '',
                 lineItems: [
                     // here we have all the previous line items
